@@ -5,3 +5,4 @@ const P = styled.p`
 `;
 
 export default P;
+// Path: src/style/theme.js

@@ -17,3 +17,4 @@ const Input = styled.input`
 `;
 
 export default Input;
+// Path: src/style/theme.js

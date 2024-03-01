@@ -2,12 +2,11 @@
   <img alt="Logo" src="./src/images/logo.png" width="100" />
 </div>
 <h1 align="center">
-  Ashutosh Dwivedi's Portfolio
+  Aayushker Singh's Portfolio
 </h1>
 <p align="center">
-  <p align="center">Demo Link: </p>
 
-Adapted from: [Adapted from Brittany Chiang's Design on GitHub](https://brittanychiang.com/)
+Adapted from: [Brittany Chiang's Design on GitHub](https://brittanychiang.com/)
 
 </p>
 

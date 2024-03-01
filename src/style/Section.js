@@ -7,3 +7,4 @@ const Section = styled.section`
 `;
 
 export default Section;
+// Path: src/style/Section.js

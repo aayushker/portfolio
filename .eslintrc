@@ -50,3 +50,4 @@
     "prefer-template": "error"
   }
 }
+// eslint-plugin-prettier

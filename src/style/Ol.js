@@ -7,3 +7,4 @@ const Ol = styled.ol`
 `;
 
 export default Ol;
+// Path: src/style/theme.js

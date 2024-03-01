@@ -66,3 +66,4 @@ const base = injectGlobal`
 `;
 
 export default base;
+// Path: src/style/theme.js

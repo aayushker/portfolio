@@ -7,3 +7,4 @@ const Img = styled.img`
 `;
 
 export default Img;
+// Path: src/style/Container.js

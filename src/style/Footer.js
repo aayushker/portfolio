@@ -6,3 +6,4 @@ const Footer = styled.footer`
 `;
 
 export default Footer;
+// Path: src/style/theme.js

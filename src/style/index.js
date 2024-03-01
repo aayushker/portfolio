@@ -33,3 +33,4 @@ export {
   Section,
   Footer,
 };
+// Path: src/style/theme.js

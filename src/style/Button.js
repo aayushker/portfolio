@@ -13,3 +13,4 @@ const Button = styled.button`
 `;
 
 export default Button;
+// Path: src/style/theme.js

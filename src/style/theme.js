@@ -53,3 +53,4 @@ const theme = {
 };
 
 export default theme;
+// Path: src/style/GlobalStyle.js

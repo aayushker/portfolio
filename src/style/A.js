@@ -21,3 +21,4 @@ const A = styled.a`
 `;
 
 export default A;
+// Path: src/style/theme.js

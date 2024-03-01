@@ -7,3 +7,4 @@ const Nav = styled.nav`
 `;
 
 export default Nav;
+// Path: src/style/theme.js

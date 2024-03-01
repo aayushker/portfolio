@@ -71,3 +71,4 @@ const mixins = {
 };
 
 export default mixins;
+// Path: src/style/theme.js
