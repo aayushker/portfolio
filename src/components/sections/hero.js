@@ -59,15 +59,13 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Ashutosh Dwivedi</h2>;
+  const two = <h2 className="big-heading">Aayushker Singh</h2>;
   const three = <h3 className="big-heading">I build things for the web.</h3>;
   const four = (
     <p>
-      I'm a software engineer specializing in building (and occasionally designing) exceptional
-      digital experiences on both the sides Frontend as well as the Backend. Currently, I'm working
-      as a Product Engineer Intern at{' '}
-      <a href="https://ecosystm360.com/#" target="_blank" rel="noreferrer">
-        Ecosystm
+      I'm a Frontend Web Developer from India. I love making website that standout and are responsive. Currently, I'm a Sophomore at{' '}
+      <a href="https://kiet.edu" target="_blank" rel="noreferrer">
+        KIET Group of Institutions
       </a>
       .
     </p>
