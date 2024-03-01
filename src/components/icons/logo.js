@@ -1,36 +1,30 @@
 import React from 'react';
 
 const IconLogo = () => (
-  <svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="title" viewBox="0 0 100 100">
+  <svg id="logo" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 84 96">
     <title>Logo</title>
-    <g>
-      <g
-        id="B"
-        transform="translate(36, 33)"
-        fill="#64FFDA"
-        fontFamily="Calibre-Medium, Calibre"
-        fontSize="50"
-        fontWeight="400"
-        letterSpacing="4.16666603">
-        <text>
-          <tspan x="0.141666985" y="33">
-            B
-          </tspan>
+    <g transform="translate(-8.000000, -2.000000)">
+      <g transform="translate(11.000000, 5.000000)">
+        <text
+          textAnchor="start"
+          fontFamily="Calibre,system,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Segoe UI,Arial,sans-serif"
+          fontSize="60"
+          y="62"
+          x="21"
+          strokewidth="4"
+          stroke="#64FFDA"
+          fill="#64FFDA">
+          A
         </text>
+        <polygon
+          id="Shape"
+          stroke="currentColor"
+          strokeWidth="5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          points="39 0 0 22 0 67 39 90 78 68 78 23"
+        />
       </g>
-      <path
-        stroke="#64FFDA"
-        strokeWidth="5"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        d="
-            M 50, 5
-            L 11, 27
-            L 11, 72
-            L 50, 95
-            L 89, 73
-            L 89, 28 z"
-      />
     </g>
   </svg>
 );

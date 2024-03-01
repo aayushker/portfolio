@@ -1,72 +1,65 @@
 import React from 'react';
-
-import { IconGithub, IconLinkedin, IconCodepen, IconInstagram, IconTwitter } from './icons';
-
+import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import { theme, A, Ul } from '../style';
+import { socialMedia } from '@config';
+import { Side } from '@components';
+import { Icon } from '@components/icons';
 
-const SocialContainer = styled.div`
+const StyledSocialList = styled.ul`
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: ${theme.colors.lightSlate};
-  position: fixed;
-  bottom: 0;
-  left: 40px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 
   &:after {
     content: '';
     display: block;
     width: 1px;
     height: 90px;
-    background-color: ${theme.colors.lightSlate};
+    margin: 0 auto;
+    background-color: var(--light-slate);
+  }
+
+  li {
+    &:last-of-type {
+      margin-bottom: 20px;
+    }
+
+    a {
+      padding: 10px;
+
+      &:hover,
+      &:focus {
+        transform: translateY(-3px);
+      }
+
+      svg {
+        width: 20px;
+        height: 20px;
+      }
+    }
   }
 `;
-const SocialItemList = Ul.extend`
-  margin-bottom: 10px;
-`;
-const SocialItem = styled.li`
-  margin: 5px auto;
-`;
-const SocialLink = A.extend`
-  padding: 10px;
 
-  svg {
-    width: 18px;
-    height: 18px;
-  }
-`;
-
-const Social = () => (
-  <SocialContainer>
-    <SocialItemList>
-      <SocialItem>
-        <SocialLink href="https://github.com/bchiang7" target="_blank" rel="noopener">
-          <IconGithub />
-        </SocialLink>
-      </SocialItem>
-      <SocialItem>
-        <SocialLink href="https://www.linkedin.com/in/bchiang7/" target="_blank" rel="noopener">
-          <IconLinkedin />
-        </SocialLink>
-      </SocialItem>
-      <SocialItem>
-        <SocialLink href="https://codepen.io/bchiang7/" target="_blank" rel="noopener">
-          <IconCodepen />
-        </SocialLink>
-      </SocialItem>
-      <SocialItem>
-        <SocialLink href="https://www.instagram.com/bchiang7/" target="_blank" rel="noopener">
-          <IconInstagram />
-        </SocialLink>
-      </SocialItem>
-      <SocialItem>
-        <SocialLink href="https://twitter.com/bchiang7" target="_blank" rel="noopener">
-          <IconTwitter />
-        </SocialLink>
-      </SocialItem>
-    </SocialItemList>
-  </SocialContainer>
+const Social = ({ isHome }) => (
+  <Side isHome={isHome} orientation="left">
+    <StyledSocialList>
+      {socialMedia &&
+        socialMedia.map(({ url, name }, i) => (
+          <li key={i}>
+            <a href={url} aria-label={name} target="_blank" rel="noreferrer">
+              <Icon name={name} />
+            </a>
+          </li>
+        ))}
+    </StyledSocialList>
+  </Side>
 );
+
+Social.propTypes = {
+  isHome: PropTypes.bool,
+};
 
 export default Social;
