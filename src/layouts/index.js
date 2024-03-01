@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
-
+import { graphql } from 'gatsby'
 import Social from '../components/social';
 import Email from '../components/email';
 import Header from '../components/header';

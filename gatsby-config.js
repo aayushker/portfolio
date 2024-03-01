@@ -9,6 +9,7 @@ module.exports = {
     siteUrl: 'https://ashutosh00710.github.io/protfolio', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@AshutoshD07',
+    email: 'singhaayushker@gmail.com',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
