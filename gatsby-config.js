@@ -3,12 +3,12 @@ const config = require('./src/config');
 module.exports = {
   pathPrefix: '/portfolio',
   siteMetadata: {
-    title: 'Ashutosh Dwivedi',
+    title: 'Aayushker Singh',
     description:
       'Ashutosh Dwivedi is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
-    siteUrl: 'https://ashutosh00710.github.io/protfolio', // No trailing slash allowed!
+    siteUrl: 'https://aayushkers.netlify.app', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@AshutoshD07',
+    twitterUsername: '@aayushker',
     email: 'singhaayushker@gmail.com',
   },
   plugins: [
@@ -22,8 +22,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Ashutosh',
-        short_name: 'Ashutosh',
+        name: 'Aayushker Singh',
+        short_name: 'Aayushker',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,

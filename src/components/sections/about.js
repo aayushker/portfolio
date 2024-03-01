@@ -127,19 +127,19 @@ const About = () => {
   }, []);
 
   const skills = [
-    'AWS',
+    // 'HTML',
+    // 'CSS',
+    'JavaScript',
     'TypeScript',
-    'NestJS',
-    'Kafka',
-    'MongoDB',
-    'WebRTC',
-    'Node.js',
-    'JavaScript (ES6+)',
-    'C++',
     'React',
-    'Jest',
-    'Firebase',
-    'Google Cloud Functions',
+    'Next.js',
+    // 'Bootstrap',
+    // 'Tailwind CSS',
+    'C',
+    'C++',
+    'Python',
+    'Linux (Fedora)',
+    'Git',
   ];
 
   return (
@@ -150,16 +150,15 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Ashutosh and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2019 when I started exploring new
-              technologies during my bachelors program at the Amity University.
+              Hello! My name is Aayushker and I enjoy creating things that live on the internet. My
+              interest in web development started back in 2023 when I started exploring new
+              technologies during my bachelors program at the KIET Group of Institutions.
             </p>
 
             <p>
-              Fast-forward to today, I've had the privilege of working at{' '}
-              <a href="https://ecosystm360.com/#">Ecosystm</a>. My main focus these days is building
-              accessible, inclusive products and digital experiences using Flutter, Nestjs, MongoDB
-              and Kafka. Currently, I'm contributing on the backend side.
+              I am curently a Sophomore at{' '} <a href="https://www.kiet.edu/">KIET Group of Institutions</a>, India. I am pursuing my bachelors in Computer Science and Engineering. I am a passionate programmer and a web developer. I am also a competitive programmer and have a good knowledge of Data Structures and Algorithms.
+              I also love using Linux and have been using{' '}
+              <a href="https://fedoraproject.org/">Fedora</a>. for the past 6 months.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>

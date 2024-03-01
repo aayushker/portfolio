@@ -1,22 +1,22 @@
 module.exports = {
-  email: 'starcdwivedi@gmail.com',
+  email: 'singhaayushker@gmail.com',
 
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/Ashutosh00710',
+      url: 'https://github.com/aayushker',
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/07_ashutosh_dwivedi',
+      url: 'https://www.instagram.com/aayushkers',
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/AshutoshD07',
+      url: 'https://twitter.com/aayushker',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/ashutosh-dwivedi-b3025b196/',
+      url: 'https://www.linkedin.com/in/aayushker/',
     },
   ],
 
