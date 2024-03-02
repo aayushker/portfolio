@@ -5,8 +5,8 @@ module.exports = {
   siteMetadata: {
     title: 'Aayushker Singh',
     description:
-      'Ashutosh Dwivedi is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
-    siteUrl: 'https://aayushkers.netlify.app', // No trailing slash allowed!
+      'Aayushker Singh is a Web Developer and a Computer Science student at KIET Group of Institutions, Ghaziabad. He is passionate about building a better websites and loves using Linux.',
+    siteUrl: 'https://aayushker.netlify.app', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@aayushker',
     email: 'singhaayushker@gmail.com',
