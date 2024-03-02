@@ -174,7 +174,12 @@ const StyledProject = styled.li`
     a {
       ${({ theme }) => theme.mixins.inlineLink};
     }
+
+  strong {
+    color: var(--white);
+    font-weight: normal;
   }
+}
 
   .project-tech-list {
     display: flex;

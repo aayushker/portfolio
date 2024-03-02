@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '1'
 title: 'Portfolio'
 cover: './portfolio.png'
 github: 'https://github.com/aayushker/pickz'
@@ -7,7 +7,6 @@ external: 'https://aayushkers.netlify.app'
 tech:
   - HTML-CSS
   - JavaScript
-  - SpringBoot
   - TailWind
   - Git
 showInProjects: true
