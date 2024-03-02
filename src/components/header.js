@@ -94,7 +94,7 @@ const Header = () => (
             <NavLink to="#">About</NavLink>
           </NavListItem>
           <NavListItem>
-            <NavLink to="#">Experience</NavLink>
+            <NavLink to="#">Education</NavLink>
           </NavListItem>
           <NavListItem>
             <NavLink to="#">Work</NavLink>
