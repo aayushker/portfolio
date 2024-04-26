@@ -139,6 +139,7 @@ const About = () => {
     'C++',
     'Python',
     'Linux (Fedora)',
+    'Networking',
     'Git',
   ];
 
@@ -158,7 +159,7 @@ const About = () => {
             <p>
               I am curently a Sophomore at{' '} <a href="https://www.kiet.edu/">KIET Group of Institutions</a>, India. I am pursuing my bachelors in Computer Science and Engineering. I am a passionate programmer and a web developer. I am also a competitive programmer and have a good knowledge of Data Structures and Algorithms.
               I also love using Linux and have been using{' '}
-              <a href="https://fedoraproject.org/">Fedora</a>. for the past 6 months.
+              <a href="https://fedoraproject.org/">Fedora</a> for the past 9 months.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>
