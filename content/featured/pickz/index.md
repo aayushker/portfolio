@@ -6,7 +6,7 @@ github: 'https://github.com/aayushker/pickz'
 external: 'https://pickz.netlify.app'
 tech:
   - HTML-CSS
-  - JavaScript
+  - TypeScript
   - API
   - Git
 showInProjects: true
