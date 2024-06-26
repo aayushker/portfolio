@@ -11,7 +11,7 @@ url: 'https://www.kiet.edu/'
 - Secured top positions in Hackerrank Monthly Challenge for 5 months at the department level.
 - Certified CSS and Python coder on Hackerrank.
 - 5 star C++ and 4 star Python coder on Hackerrank.
-- Solved 260+ problems on Leetcode and got Feb, Mar, April & May LeetCoding Badge and maintained a streak of over 130 days.
-- CodeChef contest max rating of 1250 and maintained a streak of over 90 days.
-- GeekforGeeks overall 526 rank in the college.
+- Solved 300+ problems on Leetcode and got Feb, Mar, April & May LeetCoding Badge and maintained a streak of over 150 days.
+- CodeChef contest max rating of 1267 and maintained a streak of over 100 days.
+- GeekforGeeks overall 522 rank in the college.
 - Completed Hacktober Contest
