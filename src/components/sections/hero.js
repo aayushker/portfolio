@@ -63,7 +63,7 @@ const Hero = () => {
   const three = <h3 className="big-heading">I build things for the web.</h3>;
   const four = (
     <p>
-      I'm a Web Developer from India. I love making website that standout and are responsive. Currently, I'm a Sophomore at{' '}
+      I'm a Web Developer from India. I love making website that standout and are responsive. Currently, I'm a Junior at{' '}
       <a href="https://kiet.edu" target="_blank" rel="noreferrer">
         KIET Group of Institutions
       </a>
