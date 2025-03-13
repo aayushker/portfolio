@@ -13,5 +13,5 @@ url: 'https://www.kiet.edu/'
 - 5 star C++ & Python coder on Hackerrank.
 - Solved 600+ problems on Leetcode and got 12+ months LeetCoding Badge and maintained a streak of over 400 days.
 - CodeChef contest max rating of 1391 and maintained a streak of over 100 days.
-- GeekforGeeks overall 530 rank in the college.
+- GeekforGeeks overall 501 rank in the college.
 - Completed Hacktober Contest
